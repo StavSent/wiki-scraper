@@ -3,12 +3,3 @@ global:
         exclude: 
             - Line Too Long
 			- Missing Module Docstring
-modules:
-    - path: "/test"
-		languages:
-			- Python
-		violations:
-			include:
-				- Line Too Long
-			exclude:
-				- Invalid Name
