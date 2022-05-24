@@ -3,7 +3,9 @@ import networkx as nx
 import requests
 from bs4 import BeautifulSoup
 
+
 links_dictionary = {}
+
 
 # Returns a list of links from the 'See Also' section of Wikipedia
 def see_also_links(url):
