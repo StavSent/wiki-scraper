@@ -1,0 +1,8 @@
+global:
+  metrics:
+    exclude:
+      - /README.md
+modules:
+  metrics:
+    exclude:
+      - /README.md
